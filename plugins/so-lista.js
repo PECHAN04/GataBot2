@@ -327,7 +327,7 @@ let vn = './media/jesucristo.mp3'
 this.sendPresenceUpdate('recording', m.chat)   
 this.sendFile(m.chat, vn, 'error.mp3', null, m, true, {type: 'audioMessage', ptt: true})}
     
-if (chat.audios && m.text.match(/(Joder|joder|cha|verg)/gi)) {    
+if (chat.audios && m.text.match(/(Joder|joder|verg)/gi)) {    
 let vn = './media/joder.mp3'
 this.sendPresenceUpdate('recording', m.chat)   
 this.sendFile(m.chat, vn, 'error.mp3', null, m, true, {type: 'audioMessage', ptt: true})}
@@ -367,7 +367,7 @@ let vn = './media/mmm.mp3'
 this.sendPresenceUpdate('recording', m.chat)   
 this.sendFile(m.chat, vn, 'error.mp3', null, m, true, {type: 'audioMessage', ptt: true})}
     
-if (chat.audios && m.text.match(/(Moshi moshi|Shinobu|mundo)/gi)) {    
+if (chat.audios && m.text.match(/(Moshi moshi|Shinobu)/gi)) {    
 let vn = './media/moshi moshi.mp3'
 this.sendPresenceUpdate('recording', m.chat)   
 this.sendFile(m.chat, vn, 'error.mp3', null, m, true, {type: 'audioMessage', ptt: true})}
