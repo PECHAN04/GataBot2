@@ -12,7 +12,7 @@ let vn = './media/A bueno adios master.mp3'
 this.sendPresenceUpdate('recording', m.chat)   
 this.sendFile(m.chat, vn, 'error.mp3', null, m, true, {type: 'audioMessage', ptt: true})}   
 
-if (chat.audios && m.text.match(/(bienveni|🥳|🤗|👋)/gi)) {
+if (chat.audios && m.text.match(/(bienveni|Soy nuevo|Soy nueva|🥳|🤗|👋)/gi)) {
 let vn = './media/Bienvenido.mp3'
 this.sendPresenceUpdate('recording', m.chat)   
 this.sendFile(m.chat, vn, 'error.mp3', null, m, true, {type: 'audioMessage', ptt: true})}
