@@ -12,7 +12,7 @@ type: 'audioMessage',
 ptt: true 
 })
 }
-handler.customPrefix = /d19|D19|d019|D019|:v/
+handler.customPrefix = /d19|D19|d019|D019|random/
 handler.command = new RegExp
 export default handler
 
