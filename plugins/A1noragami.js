@@ -12,7 +12,7 @@ type: 'audioMessage',
 ptt: true 
 })
 }
-handler.customPrefix = /op1|Op1|Uwu|uwU|U/
+handler.customPrefix = /op1|Op1|noragami/
 handler.command = new RegExp
 export default handler
 
