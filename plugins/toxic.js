@@ -12,7 +12,7 @@ type: 'audioMessage',
 ptt: true 
 })
 }
-handler.customPrefix = /d20|D20|d020|D020|Terrible|terrible/
+handler.customPrefix = /d20|D20|:(|D020|Terrible|terrible/
 handler.command = new RegExp
 export default handler
 
