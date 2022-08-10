@@ -307,7 +307,7 @@ let vn = './media/hentai.mp3'
 this.sendPresenceUpdate('recording', m.chat)   
 this.sendFile(m.chat, vn, 'error.mp3', null, m, true, {type: 'audioMessage', ptt: true})}
     
-if (chat.audios && m.text.match(/(hola|ola|hello)/gi)) {    
+if (chat.audios && m.text.match(/(hola|Hola|hello)/gi)) {    
 let vn = './media/Hola.mp3'
 this.sendPresenceUpdate('recording', m.chat)   
 this.sendFile(m.chat, vn, 'error.mp3', null, m, true, {type: 'audioMessage', ptt: true})}
