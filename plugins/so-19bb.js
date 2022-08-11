@@ -12,6 +12,6 @@ type: 'audioMessage',
 ptt: true 
 })
 }
-handler.customPrefix = /bb|bebe|caramelo|empapame/ 
+handler.customPrefix = /bb|bebe|bebito|caramelo|empapame/ 
 handler.command = new RegExp
 export default handler
