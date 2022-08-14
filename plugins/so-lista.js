@@ -527,5 +527,10 @@ let vn = './media/tameimpala.mp3'
 this.sendPresenceUpdate('recording', m.chat)
 this.sendFile(m.chat, vn, 'error.mp3', null, m, true, {type: 'audioMessage', ptt: true})}
     
+if (chat.audios && m.text.match(/(D021|d021|d21|D21|encantas)/gi)) {
+let vn = './media/tameimpala.mp3'
+this.sendPresenceUpdate('recording', m.chat)
+this.sendFile(m.chat, vn, 'error.mp3', null, m, true, {type: 'audioMessage', ptt: true})}
+    
 return !0 }
 export default handler
